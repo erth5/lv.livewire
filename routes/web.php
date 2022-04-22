@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/test', function () {
+    return view('livewire.test-page');
+});
+
 /*
 Route::get('/counter', function () {
     return view('livewire/counter');
